@@ -64,7 +64,7 @@ export default {
 				},
 				vibetwin: {
 					dark: 'hsl(var(--vibetwin-dark))',
-					green: 'hsl(var(--vibetwin-green))',
+					blue: 'hsl(var(--vibetwin-blue))',
 					'light-gray': 'hsl(var(--vibetwin-light-gray))',
 					'dark-gray': 'hsl(var(--vibetwin-dark-gray))'
 				}
@@ -76,6 +76,10 @@ export default {
 			boxShadow: {
 				'glow': 'var(--shadow-glow)',
 				'card': 'var(--shadow-card)'
+			},
+			fontFamily: {
+				'inter': ['Inter', 'sans-serif'],
+				'poppins': ['Poppins', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

@@ -17,14 +17,14 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* VibeTwin Brand Colors */
-    --primary: 261 51% 51%; /* Purple #805AD5 */
+    /* VibeTwin Professional Colors */
+    --primary: 214 84% 56%; /* Professional Blue #3B82F6 */
     --primary-foreground: 0 0% 100%;
     
-    --vibetwin-dark: 261 54% 35%; /* Dark Purple #6B46C1 */
-    --vibetwin-green: 145 69% 34%; /* Green #38A169 */
-    --vibetwin-light-gray: 210 20% 93%; /* Light Gray #EDF2F7 */
-    --vibetwin-dark-gray: 210 25% 22%; /* Dark Gray #2D3748 */
+    --vibetwin-dark: 220 26% 14%; /* Dark Navy #1E293B */
+    --vibetwin-blue: 217 91% 60%; /* Accent Blue #3B82F6 */
+    --vibetwin-light-gray: 210 40% 96%; /* Light Gray #F8FAFC */
+    --vibetwin-dark-gray: 215 25% 27%; /* Charcoal #334155 */
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -32,7 +32,7 @@ All colors MUST be HSL.
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 145 69% 34%; /* Using green as accent */
+    --accent: 217 91% 60%; /* Using blue as accent */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -44,7 +44,7 @@ All colors MUST be HSL.
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(var(--vibetwin-dark)), hsl(var(--primary)));
-    --gradient-accent: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--vibetwin-green)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--vibetwin-blue)));
     
     /* Shadows */
     --shadow-glow: 0 10px 30px -10px hsl(var(--primary) / 0.3);
@@ -114,6 +114,10 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-inter;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-semibold;
   }
 }
