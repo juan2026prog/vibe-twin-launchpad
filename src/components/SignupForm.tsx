@@ -36,7 +36,7 @@ export default function SignupForm() {
       console.log('Submitting to Make.com:', Object.fromEntries(submitData));
       
       // Replace with actual Make.com endpoint
-      const response = await fetch('https://api.make.com/ENDPOINT', {
+      const response = await fetch('https://hook.us2.make.com/3y2wmjmgeob443z8xcar3z3kg0ybr9p7', {
         method: 'POST',
         body: submitData
       });
